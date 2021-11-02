@@ -513,6 +513,7 @@ GameObject:
   - component: {fileID: 1577741140}
   - component: {fileID: 1577741139}
   - component: {fileID: 1577741141}
+  - component: {fileID: 1577741142}
   m_Layer: 5
   m_Name: Inventory MainPanel
   m_TagString: Untagged
@@ -592,7 +593,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27aa23cec58ad5a46b59335c5b45af54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  emptySlot: {fileID: 925748900278951261, guid: 3bcfd8d4a6f8a914a83f70585aa1b040, type: 3}
+  emptySlot: {fileID: 925748900278951261, guid: 0c9163c6b5b8ee44aa9d5c1bc33f8023, type: 3}
+  testItem: {fileID: -6233692810310016656, guid: a7272a316152826459a4ae0c29358d8f, type: 3}
+--- !u!65 &1577741142
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577741137}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 960, y: 510, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2054063621
 GameObject:
   m_ObjectHideFlags: 0
